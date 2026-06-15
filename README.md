@@ -1,8 +1,8 @@
-# MediSaaS 🏥✨
+# MediSaaS
 
 MediSaaS es una plataforma web moderna y segura, diseñada específicamente para que doctores independientes y pequeñas clínicas puedan gestionar sus consultorios de forma profesional, sin fricciones y con un diseño de vanguardia.
 
-##  Características Principales
+## Características Principales
 
 - **Diseño Ultra-Premium**: Interfaz responsiva con *Advanced Glassmorphism*, fondos dinámicos y tipografía cuidada (Google Fonts: Outfit y Plus Jakarta Sans) para garantizar el "Efecto Wow" en los usuarios.
 - **Onboarding sin fricción**: Autenticación rápida y segura con Google (Firebase Auth). Si es tu primera vez, el sistema te guía para crear tu espacio de trabajo privado.
@@ -10,7 +10,7 @@ MediSaaS es una plataforma web moderna y segura, diseñada específicamente para
 - **Gestión de Pacientes**: Directorio completo con información de contacto, edad y un espacio para historial/notas médicas.
 - **Agenda Inteligente**: Asigna citas a tus pacientes de forma rápida e intuitiva. 
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 El proyecto está construido sobre tecnologías modernas, optimizadas para velocidad, bajo costo inicial y alta escalabilidad:
 
@@ -21,20 +21,20 @@ El proyecto está construido sobre tecnologías modernas, optimizadas para veloc
 - **Autenticación**: Firebase Auth (Google Provider).
 - **Enrutamiento**: React Router v6.
 
-## ⚙️ Estructura del Proyecto
+## Estructura del Proyecto
 
 ```bash
-📦 src
- ┣ 📂 components       # Componentes reutilizables de UI y Layouts (Ej. DashboardLayout)
- ┣ 📂 contexts         # Manejo de estado global (AuthContext para usuarios y clínica)
- ┣ 📂 firebase         # Configuración y conexión con los servicios de Google Cloud
- ┣ 📂 pages            # Vistas principales de la app (Login, Pacientes, Citas, etc.)
- ┣ 📜 App.jsx          # Configuración principal de Rutas y Privacidad
- ┣ 📜 index.css        # Sistema de Diseño Global y Variables Premium
- ┗ 📜 main.jsx         # Punto de entrada de React
+src
+ ┣  components       # Componentes reutilizables de UI y Layouts (Ej. DashboardLayout)
+ ┣  contexts         # Manejo de estado global (AuthContext para usuarios y clínica)
+ ┣  firebase         # Configuración y conexión con los servicios de Google Cloud
+ ┣  pages            # Vistas principales de la app (Login, Pacientes, Citas, etc.)
+ ┣  App.jsx          # Configuración principal de Rutas y Privacidad
+ ┣  index.css        # Sistema de Diseño Global y Variables Premium
+ ┗  main.jsx         # Punto de entrada de React
 ```
 
-## 💻 Instalación y Desarrollo Local
+## Instalación y Desarrollo Local
 
 Sigue estos pasos para correr el proyecto en tu máquina local:
 
@@ -58,4 +58,4 @@ Sigue estos pasos para correr el proyecto en tu máquina local:
    El proyecto estará corriendo generalmente en `http://localhost:5173`.
 
 ---
-*Desarrollado con ❤️ para empoderar a los profesionales de la salud.*
+*Desarrollado para empoderar a los profesionales de la salud.*
